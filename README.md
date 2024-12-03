@@ -68,6 +68,7 @@ El siguiente for busca un vecino en una lista de vecinos.
 ```
 
 los datos necesarios para ingresar a los dispositivos.
+
 Tambien se pide ingresar manualmente la mac address.
 
 ```sh
