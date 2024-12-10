@@ -15,7 +15,7 @@ Usa los siguientes comandos:
 >El comando show cdp neigbords detail busca los vecinos disponibles y la ip para poderse conectar por ssh.
 >El comando show ip arp se usa para obtener la ip de la mac deseada.
 
-## Installation
+## Explicación
 
 El comando splitlines agrega la informacion del comando mac address-table a listas para que el programa pueda leer la informacion e imprime los datos con las pociciones de la mac address deseada.
 ```sh
