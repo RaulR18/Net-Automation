@@ -1,22 +1,6 @@
 # Net-Automation
 #### _An automated program that looks for a mac address on a network of devices_
 
-
-It is an automated program, it is used in a network of devices with the same password, the program asks for an ip to connect by ssh to a device and when entering the mac address that you want to search, the program will begin to connect to the different devices looking for the mac address in all devices until it finds it.
-Use the following commands:
-- Show mac address-table
-- Show cdp neigbords
-- Show ip arp 
-
-## Import
-
-- netmiko 
-- ConnectHandler
-
-> The show mac address-table command searches for the desired mac on the connected device, if it finds it it takes the port data and prints it.
->The show cdp neigbords detail command looks for the available neighbors and the ip to be able to connect by ssh.
->The show ip arp command is used to get the desired mac ip.
-
 Es un programa automatizado, se usa en una red de dispositivos con una misma contraseña, el programa pide una ip para conectarse por ssh a un dispositivo y al ingresar la mac address que se desea buscar, el programa empezara a conectarse a los distintos dispositivos buscando la mac address en todos los dispositivos hasta encontrarla.
 Usa los siguientes comandos:
 - Show mac address-table
